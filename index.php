@@ -27,6 +27,9 @@
         printArr($numbers);
         $larg = findLargest($numbers);
         echo "Largest: $larg";
+        $uniqNums = removeDups($numbers);
+        printArr($uniqNums);
+        var_dump(distribution($numbers));
     ?>
 </body>
 </html>
