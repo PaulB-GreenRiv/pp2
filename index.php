@@ -25,6 +25,8 @@
         $numbers = array(7, 9, 8, 9, 8, 8, 6);
         include ("functions.php");
         printArr($numbers);
+        $larg = findLargest($numbers);
+        echo "Largest: $larg";
     ?>
 </body>
 </html>
