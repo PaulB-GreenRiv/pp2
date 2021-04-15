@@ -21,7 +21,15 @@
 </head>
 <body>
     <?php
-        print "PHP Array Practice";
+        echo "PHP Array Practice";
+        $numbers = array(7, 9, 8, 9, 8, 8, 6);
+        function printArr($numArray) {
+            foreach ($numArray as $num)
+            {
+                echo "<p>$num</p>";
+            }
+        }
+        printArr($numbers);
     ?>
 </body>
 </html>
